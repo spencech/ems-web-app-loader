@@ -1,0 +1,16 @@
+<div class="loader-container" *ngIf="type === LoaderType.Spinner">
+	<div class="lds-css">
+		<div class="lds-eclipse">
+		  <div></div>
+		</div>
+	</div>
+</div>
+<div class="loader-container" *ngIf="type === LoaderType.Ellipsis">
+	<div class="lds-ellipsis">
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+	</div>
+</div>
+<div class="style-container" [innerHtml]="styles"></div>
