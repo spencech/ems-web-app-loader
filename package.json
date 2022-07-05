@@ -1,5 +1,5 @@
 {
-  "name": "loader",
+  "name": "ems-web-app-loader",
   "version": "0.0.1",
   "author": "Chris Spence",
   "peerDependencies": {
@@ -12,5 +12,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/spencech/ems-web-app-loader.git"
+  },
+  "scripts": {
+    "publish": "git add -A . && git commit -m 'prepublish npm package' && npm version patch && ng build loader && cd dist && npm publish"
   }
 }
