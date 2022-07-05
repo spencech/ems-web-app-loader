@@ -36,7 +36,7 @@ Module Import:
 Usage in component:
 	
 	import { Component } from '@angular/core';
-	import { LoaderService, LoaderType } from "loader";
+	import { LoaderService, LoaderType } from "ems-web-app-loader";
 	@Component({
 	  selector: 'app-root',
 	  templateUrl: './app.component.html',
