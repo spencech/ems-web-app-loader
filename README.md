@@ -15,7 +15,7 @@ Module Import:
 	import { CommonModule } from '@angular/common';  
 
 	import { AppComponent } from './app.component';
-	import { LoaderModule, LoaderService } from "loader"
+	import { LoaderModule, LoaderService } from "ems-web-app-loader"
 
 	@NgModule({
 	  declarations: [
