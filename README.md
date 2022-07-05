@@ -8,14 +8,6 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Usage
 
-Example spinner configuration in html template:
-
-	<loader [transition-speed]="2000" [animation-duration]="1000" [z-index]="100" [size]="200" color="#0099ff" background="rgba(0,255,0,0.25)" ></loader>
-	
-Example ellipsis configuration in html template:
-
-	<loader [transition-speed]="2000" [animation-duration]="600" [z-index]="100" [size]="13" color="#0099ff" background="rgba(0,255,0,0.25)" ></loader>
-
 Module Import:
 
 	import { NgModule } from '@angular/core';
@@ -77,6 +69,15 @@ Service interface:
 	load: (show: boolean, type: LoaderType = LoaderType.Spinner) => void; (initializes loader)
 	show: () => void; shows previously initialized loader
 	hide: () => void; hides previously initialized loader
+
+Template Usage (settings for spinner):
+
+	<loader [transition-speed]="2000" [animation-duration]="1000" [z-index]="100" [size]="200" color="#0099ff" background="rgba(0,255,0,0.25)" ></loader>
+	
+Template Usage (settings for ellipsis):
+
+	<loader [transition-speed]="2000" [animation-duration]="600" [z-index]="100" [size]="13" color="#0099ff" background="rgba(0,255,0,0.25)" ></loader>
+
 
 Template attributes with defaults:
 
