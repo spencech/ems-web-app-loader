@@ -1,6 +1,6 @@
 {
   "name": "ems-web-app-loader",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "Chris Spence (https://educationalmediasolutions.com)",
   "description": "The embedded angular.io component and service expose an interface for rendering a modal overlay and loader animation during server transactions.",
   "peerDependencies": {
