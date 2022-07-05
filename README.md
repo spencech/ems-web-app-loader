@@ -35,14 +35,14 @@ Module Import:
 
 Usage in component:
 	
-	import { Component, AfterViewInit } from '@angular/core';
+	import { Component } from '@angular/core';
 	import { LoaderService, LoaderType } from "loader";
 	@Component({
 	  selector: 'app-root',
 	  templateUrl: './app.component.html',
 	  styleUrls: ['./app.component.less']
 	})
-	export class AppComponent implements AfterViewInit {
+	export class AppComponent {
 	  public loading: boolean = false;
 	  constructor(private loader: LoaderService) {}
 	  toggleLoader() {
@@ -72,6 +72,7 @@ Service interface:
 
 Template Usage (settings for spinner):
 
+	<button click="showLoader()">Load</button>	
 	<loader [transition-speed]="2000" [animation-duration]="1000" [z-index]="100" [size]="200" color="#0099ff" background="rgba(0,255,0,0.25)" ></loader>
 	
 Template Usage (settings for ellipsis):
