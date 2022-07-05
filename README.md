@@ -67,8 +67,8 @@ Supported loader types:
 Service interface:
 
 	load: (show: boolean, type: LoaderType = LoaderType.Spinner) => void; (initializes loader)
-	show: () => void; shows previously initialized loader
-	hide: () => void; hides previously initialized loader
+	show: () => void; shows default or previously initialized loader
+	hide: () => void; hides default or previously initialized loader
 
 Template Usage (settings for spinner):
 
