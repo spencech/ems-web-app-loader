@@ -1,6 +1,6 @@
 # EMS Web Application Components: Loader Animation (spinner or ellipsis)
 
-The Loader Angular.io module is authored for use within web applications developed by [Educational Media Solutions](https://educationalmediasolutions.com).
+The Loader Angular.io module is authored for use within [web applications](https://github.com/spencech/ems-web-app-template) developed by [Educational Media Solutions](https://educationalmediasolutions.com).
 
 The embedded component and service expose an interface for rendering a modal overlay and loader animation during server transactions.
 
