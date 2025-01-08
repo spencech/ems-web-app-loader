@@ -30,6 +30,7 @@ export class LoaderComponent implements OnInit, AfterViewInit, OnChanges  {
   constructor(private service: LoaderService, private sanitizer: DomSanitizer) {};
 
   ngOnInit() {
+    console.log("loaded")
     this.buildStyles();
   }
 
